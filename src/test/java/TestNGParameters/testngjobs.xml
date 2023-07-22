@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Test">
+  <parameter name="" value=""></parameter>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+  <parameter name="username" value="Admin"/>
+  <parameter name="password" value="admin123"/>
+  <parameter name="jobtitle" value="Manager12"/>
+  <parameter name="jobdesc" value="Manager12 desc"/>
+  <parameter name="jobnote" value="Manager12 note"/>
+  
+    <classes>
+      <class name="TestNGParameters.Addjobs"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Suite">
+
+  <test name="Test2">
+
+    <classes>
+      <class name="Day_016_ParallelClasses.TC02_Add_Jobs"/>
+      <class name="Day_016_ParallelClasses.TC01_Add_Nationality"/>
+    </classes>
+
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

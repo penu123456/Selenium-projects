@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite6">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="A_javascriptexe.Open_new_Tab"/>
+       <class name="A_javascriptexe.highlighting"/>
+        <class name="A_javascriptexe.Scroll_operations"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite6 -->

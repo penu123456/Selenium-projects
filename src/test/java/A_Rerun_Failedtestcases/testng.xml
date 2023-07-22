@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite34">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="A_Rerun_Failedtestcases.addskills"/>
+      <class name="A_Rerun_Failedtestcases.addnationality"/>
+      <class name="A_Rerun_Failedtestcases.addjobs"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

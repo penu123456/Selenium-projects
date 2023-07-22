@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2" >
+
+
+  <test  name="Test1">
+  <parameter name="Browser1" value="Chrome"/> 
+  <parameter name="UserName1" value="Admin"/> 
+  <parameter name="Password1" value="admin123"/> 
+  <parameter name="Nationality1" value="India6550"/> 
+  <classes> 
+ 	  <class name="Day_012_TestNG_Paraneters.TC02_Login_Static_Paarameters2"/>   
+ 	</classes> 
+  </test> <!-- Test ENDS-->
+  
+  
+    <test  name="Test2">
+  <parameter name="Browser1" value="Chrome"/> 
+  <parameter name="UserName1" value="Admin"/> 
+  <parameter name="Password1" value="admin123"/> 
+  <parameter name="Nationality1" value="India6552"/> 
+  <classes> 
+ 	  <class name="Day_012_TestNG_Paraneters.TC02_Login_Static_Paarameters2"/>   
+ 	</classes> 
+  </test> <!-- Test ENDS-->
+  
+  
+  
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,278 @@
+6. Java - Collections(Set,List,Map)
+7.Java - OOPS Concepts
+8.Java- Exception Handling
+
+
+Java oops concept
+
+1. Abstrcation
+2. Encapsulation
+3. Polymorphysim ----------compiletime (Method Overloading) ,static binding
+, Runtime (Method Overriding),dynamic binding
+4. Inheritance
+
+
+int sno,sname,scontat;
+static String CollegeName,CollgeAddress;
+
+S1--> 100,Ravi,123123123,JNTU,Hyderabad
+S2--> 200,Kiran,2312312123,JNTU,Hyderabad
+
+
+public ,private,protected , default---------..Access Modifiers in java
+
+
+
+Java.......
+
+1.standard class or concreate class
+2.Abstract class
+3.Interface
+
+
+
+
+
+prodcut ---------->coverages(),premium(),contact();
+
+
+Product P1= new MarineProduct();
+Product P2=new GeneralLiabletyProduct();
+Product P3=new AutoProduct();
+
+
+
+public class MarineProduct implements Prodcut
+{
+
+
+
+
+}
+
+public class GeneralLiabletyProduct implements Prodcut
+{
+
+
+
+
+}
+
+
+public class GeneralLiabletyProduct implements Prodcut
+{
+
+
+
+
+}
+
+------------------------------------------
+
+
+Inheritance
+
+1.Single Ineritance
+
+
+
+Class A
+{
+
+public void Hello(){
+
+}
+
+}
+
+class B extends A
+{
+
+
+
+}
+
+
+class C extends B
+{
+
+
+}
+
+--------------
+
+Class A
+{
+
+
+}
+
+Class B extends A
+{
+
+
+}
+
+
+Class C extends A
+{
+
+
+}
+
+-------------------
+
+Class A
+{
+
+
+}
+
+
+
+class B
+{
+
+
+}
+
+
+Class C extends A ,B
+{
+
+
+}
+
+----------------------------
+
+
+interface A
+{
+
+
+
+}
+
+
+interface B{
+
+
+}
+
+class C implements A,B
+{
+
+}
+
+
+
+==================================================================================
+
+
+
+
+
+Collections in java
+
+
+interface Bank
+{
+
+deposits();
+withdraws();
+
+}
+
+class HDFC implements Bank
+{
+
+
+Bankk h1=new HDFC();
+h1.deposit();
+h1.withdraws();
+
+}
+
+
+class SBI implements BANK 
+{
+
+
+Bank s1=new SBIT();
+s1.
+
+
+}
+
+--------------------------------------------------------
+
+Collections in java
+
+
+String str="Hello Selnium;
+int a=10;
+Integer a=10;
+
+
+str="Hello1";
+
+
+Set-----------> {10,20,30,50}  ,{"Hai","Hello","Selenium"}
+List----------> {10,20,30,50,10,20} {"Hai","Hello","Hai","Hello"}
+Map-----------> { "10-Ravi","20-Kiran"} -- Object information is stored in the form of Key value pairs combination
+
+Set--->HashSet,LinkedHashSet,TreeSet
+HashSet {10,20,30,50} ,{20,10,30,50} ,{30,50,10,20}
+LinkedHashSet {10,20,30,50} ,{10,20,30,50} ,{10,20,30,50} ,{10,20,30,50}
+TreeSet {20,10,30,50} ----{10,20,30,50}
+
+List - ArrayList,Vector,Stack,LinkedList
+ArrayList -{10,20,30,30,50,5},{10,20,30,30,50,5}
+LinkedList -  { Null-->10--NextNode_info , PreviosuNode_Info-->20--NextNode_info , PreviosuNode_Info-->30--NextNode_info 
+Stack - Last in first out ,Push, Pop   {10,20,30,40} {10,20,30}
+Vector - {10,20,30,30,50,5} --> 5mb,7.5mb ,
+
+Map-
+HashMap - { "10-Ravi","20-Kiran"} ,{ "20-Kiran","10-Ravi",}
+LinkedHashMap - { "10-Ravi","20-Kiran"} ,{ "10-Ravi","20-Kiran"}
+TreeMap - { "10-Ravi","20-Kiran" ,"5-Kiran"} ,{ "5-Kiran" ,"10-Ravi","20-Kiran"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
